@@ -20,7 +20,7 @@ font-family: 'Vidaloka', serif;  */
 h1{
   color: rgb(225, 132, 19);
   font-family: 'Merriweather';
-  font-size: 4rem;
+  font-size: 3rem;
   padding-top:15%;
  
 }
@@ -28,7 +28,7 @@ h1{
 p{
   color:rgb(79, 79, 79);
   font-family: 'Merriweather';
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-top:10%
 }
 
@@ -80,6 +80,6 @@ ul{
   background-color:white;
 }*/ 
 
-.button{
-  color: light orange;
-}
+/* .button{
+  background-color: orange;
+} */
