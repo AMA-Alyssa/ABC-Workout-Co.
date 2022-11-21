@@ -53,17 +53,17 @@ ul{
 
 .letter{
   color: black;
-  font-family: 'Merriweather';
-  font-size: 2.5rem;
+  font-family: 'Vidaloka';
+  font-size: 3rem;
   text-decoration: underline;
 
   
 }
 
 .exercise {
-  color: rgb(40, 36, 36);
+  color: black;
   font-family: 'Merriweather';
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-left: 5%;
   
 }
@@ -71,7 +71,7 @@ ul{
 .reps {
   color: black;
   font-family: 'Merriweather';
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /*body {
@@ -84,6 +84,11 @@ ul{
   background-color: orange;
 } */
 
-footer{
-  margin-top:5%;
+
+
+.signIn{
+  font-size: 2rem;
+  font-family:'Merriweather';
+  margin-top: 10%;
+  margin-bottom: 5%;
 }

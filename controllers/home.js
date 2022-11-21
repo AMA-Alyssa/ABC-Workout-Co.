@@ -14,7 +14,7 @@ exports.createWorkout = async (req, res) => {
 
     try{       
         
-        //let workouts = await Workout.find()
+        
         let workouts = await Workout.find({
             type:selected,
             letter: letters,
@@ -28,6 +28,7 @@ exports.createWorkout = async (req, res) => {
                     continue;
                 }
             }
+            console.log(workouts)
         } 
 
         await Exercise.create({userId: req.user.id, workouts:newArray})

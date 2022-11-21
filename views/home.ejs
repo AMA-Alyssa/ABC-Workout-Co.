@@ -14,7 +14,7 @@
         <select name="bodyFocus" class ='.container-xxl btn btn-secondary btn-sm  ' class="form-select" aria-label="Select Type" >
           <option selected>Body Focus</option>
           <option value="lower body">Lower Body</option>
-          <option value="abs + HIIT">Abs + HIIT</option>
+          <option value="abs +HIIT">Abs + HIIT</option>
           <option value="upper body">Upper Body</option>
           <option value="total body">Total Body</option>
         </select>  
@@ -29,16 +29,15 @@
             <%   let workouts =exercise.workouts  %>
             <%  workouts.forEach(workout => { %>
               <li>  <span class='letter' > <%= workout.letter %>  </span>
-                    <span class ='exercise'>  <%= workout.exercise %> </span>
+                    <span class ='exercise'>  <%= workout.exercise %> - </span>
                     <span class ='reps'> <%=  workout.reps %> </span>
               </li> 
             <% }) %>
           <% } %>  
         </ul>
       </div>
+    </div>
   </div>
-  </div>
-  
 </div>
    
     
