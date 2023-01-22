@@ -4,6 +4,7 @@ const authController = require('../controllers/auth')
 const indexController = require('../controllers/index')
 const {ensureAuth, ensureGuest } = require('../middleware/auth')
 
+
 router.get('/', indexController.getIndex)
 router.get('/login', authController.getLogin);
 router.post('/login', authController.postLogin)
