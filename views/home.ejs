@@ -10,15 +10,16 @@
         <h1>Get A New Body Weight Work Out</h1>
       <p> Enter any word that inspires you, then select the type of work out you want.</p>
       <form  action="/home/createWorkout" method="POST">
-        <input type="text" name="workout" placeholder="enter word">
-        <select name="bodyFocus" class ='.container-xxl btn btn-secondary btn-sm  ' class="form-select" aria-label="Select Type" >
+        <input class ='enter' type="text" name="workout" placeholder="Enter Inspiring Word">
+        <select name="bodyFocus" class ='.container-xxl btn btn-secondary btn-lg bodyFocus' class="form-select" aria-label="Select Type" >
           <option selected>Body Focus</option>
           <option value="lower body">Lower Body</option>
           <option value="abs +HIIT">Abs + HIIT</option>
           <option value="upper body">Upper Body</option>
           <option value="total body">Total Body</option>
         </select>  
-        <input class="btn btn-secondary btn-sm" type="submit"></button>
+
+        <input class="btn btn-secondary btn-lg submit" type="submit"></button>
       </form> 
       </div>
       <div class="container workout-list border rounded">

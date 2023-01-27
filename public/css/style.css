@@ -97,3 +97,20 @@ body{
   background-image: url('../images/sprite40.png');
   background-color: rgb(57, 52, 52);
 }
+
+.submit{
+  margin-left: 2%;
+
+}
+
+.bodyFocus{
+  padding: 1%;
+  margin-left: 2%;
+}
+
+.enter{
+  padding:2% 3% 2% 3%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  border-radius: 15px;
+}
