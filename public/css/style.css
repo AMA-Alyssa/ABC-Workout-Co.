@@ -114,3 +114,17 @@ body{
   font-size: larger;
   border-radius: 15px;
 }
+
+.new{
+  color: rgb(245, 185, 66);
+  font-family: 'Merriweather';
+  font-size: 3.5rem;
+  padding-top:15%;
+  ;
+}
+
+.instructions{
+  padding-bottom: 2%;
+  padding-top: 5%;
+
+}
