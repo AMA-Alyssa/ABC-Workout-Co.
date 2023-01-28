@@ -38,10 +38,11 @@ ul{
   text-align: left;
 }
 
-.workout-list {
+/*.workout-list {
   width: auto;
   height: auto;
-}
+  margin-bottom: ;
+}*/
 
 .workout-list{
   margin-top: 3rem;
@@ -49,6 +50,7 @@ ul{
   padding-top: 2rem;
   padding-bottom: 2rem;
   box-shadow: 0 3px 10px;
+  margin-bottom: 5%;
 }
 
 .letter{
@@ -128,3 +130,4 @@ body{
   padding-top: 5%;
 
 }
+
