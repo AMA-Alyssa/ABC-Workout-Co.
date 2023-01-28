@@ -131,3 +131,37 @@ body{
 
 }
 
+/* media queries @max width 480 */
+
+@media screen and (max-width: 375px){
+  
+  .new{
+    font-size: 2rem;
+    margin-right:20%;
+    width:auto;
+    text-align: center;
+
+  }
+  .instructions{
+    text-align: center;
+    margin-right: 20%;
+    font-size:1.2rem;
+  }
+  .enter{
+    margin-bottom: 4%;
+    margin-right:10%;
+  }
+  .submit{
+    margin-top:5%;
+  }
+
+  .workout-list {
+    width:auto;
+  }
+  .logoSvg{
+    height:50px;
+    width: 200px;
+  }
+  
+  
+}
