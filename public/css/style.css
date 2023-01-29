@@ -152,13 +152,11 @@ body{
     margin-right:10%;
     margin-left:7%;
   }
-  .submit{
-    margin-top:5%;
 
-  } 
 
   .bodyFocus{
-    margin-right:5%;
+    
+    padding:3%;
   }
 
   .workout-list {
