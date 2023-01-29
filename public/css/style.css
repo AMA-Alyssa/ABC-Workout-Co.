@@ -131,7 +131,7 @@ body{
 
 }
 
-/* media queries @max width 480 */
+/* media queries @max width 375 */
 
 @media screen and (max-width: 375px){
   
@@ -165,6 +165,123 @@ body{
   .logoSvg{
     height:50px;
     width: 200px;
+  }
+  
+  
+} 
+
+/* media queries @max width 414 */
+
+@media screen and (max-width: 414px){
+  
+  .new{
+    font-size: 2rem;
+   /* margin-right:20%; */
+    width:auto;
+    text-align: center;
+
+  }
+  .instructions{
+    text-align: center;
+   /* margin-right: 20%; */
+    font-size:1.2rem;
+  }
+  .enter{
+    margin-bottom: 4%;
+    margin-right:10%;
+    margin-left:7%;
+  }
+
+
+  .bodyFocus{
+    
+    padding:3%;
+  }
+
+  .workout-list {
+    width:auto;
+  }
+  .logoSvg{
+    height:50px;
+    width: 200px;
+  }
+  
+  
+} 
+
+/* media queries @max width 360 */
+
+@media screen and (max-width: 360px){
+  
+  .new{
+    font-size: 2rem;
+   /* margin-right:20%; */
+    width:auto;
+    text-align: center;
+
+  }
+  .instructions{
+    text-align: center;
+   /* margin-right: 20%; */
+    font-size:1rem;
+  }
+  .enter{
+    margin-bottom: 4%;
+    margin-right:10%;
+    margin-left:7%;
+  }
+
+  .bodyFocus{
+    
+    padding:3%;
+  }
+
+  .workout-list {
+    width:auto;
+  }
+  .logoSvg{
+    height:50px;
+    width: 200px;
+  }
+  
+  
+} 
+
+/* media queries @max width 280 */
+
+@media screen and (max-width: 280px){
+  
+  .new{
+    font-size: 1.6rem;
+    
+    
+   /* margin-right:20%; */
+    width:auto;
+    text-align: center;
+
+  }
+  .instructions{
+    text-align: center;
+   /* margin-right: 20%; */
+    font-size:.75rem;
+  }
+  /*.enter{
+    margin-bottom: 4%;
+    margin-right:10%;
+    margin-left:7%;
+  } */
+
+  .bodyFocus{
+    
+    padding:3.25%;
+  }
+
+  .workout-list {
+    width:auto;
+  }
+  .logoSvg{
+    height:50px;
+    width: 150px;
   }
   
   
