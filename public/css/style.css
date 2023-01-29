@@ -137,22 +137,28 @@ body{
   
   .new{
     font-size: 2rem;
-    margin-right:20%;
+   /* margin-right:20%; */
     width:auto;
     text-align: center;
 
   }
   .instructions{
     text-align: center;
-    margin-right: 20%;
+   /* margin-right: 20%; */
     font-size:1.2rem;
   }
   .enter{
     margin-bottom: 4%;
     margin-right:10%;
+    margin-left:7%;
   }
   .submit{
     margin-top:5%;
+
+  } 
+
+  .bodyFocus{
+    margin-right:5%;
   }
 
   .workout-list {
@@ -164,4 +170,4 @@ body{
   }
   
   
-}
+} 
