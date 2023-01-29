@@ -263,17 +263,20 @@ body{
   .instructions{
     text-align: center;
    /* margin-right: 20%; */
-    font-size:.75rem;
+    font-size:.80rem;
   }
-  /*.enter{
-    margin-bottom: 4%;
-    margin-right:10%;
-    margin-left:7%;
-  } */
+  .enter{
+    margin-right: 10%;
+    font-size: 1rem;
+   
+  } 
 
   .bodyFocus{
-    
+    font-size: 1rem;
     padding:3.25%;
+  }
+  .submit{
+    font-size: 1rem;
   }
 
   .workout-list {
