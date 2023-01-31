@@ -9,7 +9,7 @@
 <body> 
     <div class ='container text-center'>
         <div  class ='row'>
-            <h1 >Welcome to ABC Workout</h1>
+            <h1 class ='welcome'>Welcome to ABC Workout</h1>
         </div>    
         <div class ='row'>  
                 <h2 class="signIn">Sign In</h2>
@@ -24,13 +24,13 @@
                     <% }) %>    
                 <% } %>
                 <form action="/login" method="POST">
-                    <input type="email" name="email" placeholder="Email">
-                    <input type="password" name="password" placeholder="Password">
-                    <input class="btn btn-secondary btn-sm" type="submit">
+                    <input class="email" type="email" name="email" placeholder="Email">
+                    <input class="password" type="password" name="password" placeholder="Password">
+                    <input class="btn btn-secondary btn-sm  submitButtonA" type="submit">
                 </form>
         </div> 
-        <div class ='row'>
-            <p>Need an account?<a href="/signup"> Signup</a></p> 
+        <div class ='row accountSignUp'>
+            <p class="account" >Need an account?<a  href="/signup"> Signup</a></p> 
         </div>
     </div>
 </body>

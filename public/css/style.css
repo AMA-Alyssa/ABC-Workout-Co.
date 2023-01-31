@@ -17,10 +17,10 @@ font-family: 'Vidaloka', serif;  */
 
 
 
-h1{
+h1 {
   color: rgb(245, 185, 66);
   font-family: 'Merriweather';
-  font-size: 3rem;
+  font-size: 4rem;
   padding-top:15%;
  
 }
@@ -76,15 +76,7 @@ ul{
   font-size: 2rem;
 }
 
-/*body {
-  background-image: url('../images/undraw_pilates_gpdb\ \(1\).svg');
-  background-repeat: no-repeat, repeat;
-  background-color:white;
-}*/ 
 
-/* .button{
-  background-color: orange;
-} */
 
 
 
@@ -93,6 +85,7 @@ ul{
   font-family:'Merriweather';
   margin-top: 10%;
   margin-bottom: 5%;
+  color:white;
 }
 
 body{
@@ -131,6 +124,8 @@ body{
 
 }
 
+
+
 /* media queries @max width 375 */
 
 @media screen and (max-width: 375px){
@@ -166,14 +161,23 @@ body{
     height:50px;
     width: 200px;
   }
-  
-  
+
+  .submitButtonA{
+    margin-top:3%;
+  }
+
+  .account{
+    
+    font-size: medium;
+  }
 } 
 
 /* media queries @max width 414 */
 
 @media screen and (max-width: 414px){
-  
+  .submitButtonA{
+    margin-top:3%;
+  }
   .new{
     font-size: 2rem;
    /* margin-right:20%; */
@@ -212,7 +216,23 @@ body{
 /* media queries @max width 360 */
 
 @media screen and (max-width: 360px){
-  
+  .welcome{
+    font-size:2rem;
+  }
+  .signIn{
+    font-size:1.5rem;
+  }
+  .email{
+    width:40%;
+  }
+  .password{
+    width:40%;
+  }
+.submitButtonA{
+  margin-left:3%;
+  margin-top: 5%;
+}
+
   .new{
     font-size: 2rem;
    /* margin-right:20%; */
@@ -289,3 +309,15 @@ body{
   
   
 } 
+
+@media screen and (max-width: 1024px){
+  .welcome{
+    font-size:2rem;
+  }
+  .signIn{
+    font-size:2rem;
+  }
+  .accountSignUp{
+    margin-bottom:70%;
+  }
+}
