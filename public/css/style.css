@@ -170,6 +170,13 @@ body{
     
     font-size: medium;
   }
+
+ /* .formSignUp{
+    font-size: larger;
+    margin:1%;
+  } */
+
+
 } 
 
 /* media queries @max width 414 */
@@ -208,6 +215,9 @@ body{
   .logoSvg{
     height:50px;
     width: 200px;
+  }
+  .welcome{
+    font-size: 2rem;
   }
   
   
@@ -321,3 +331,6 @@ body{
     margin-bottom:70%;
   }
 }
+
+/* Sign Up Sheet */
+

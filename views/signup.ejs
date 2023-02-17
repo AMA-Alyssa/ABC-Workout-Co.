@@ -1,23 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABC Workout</title>
-</head>
+
 <body>
-    <% if (locals.messages.errors) { %>
-        <% messages.errors.forEach( el => { %>
-            <div class="alert alert-danger"><%= el.msg %></div>
-        <% }) %>    
-    <% } %>
-    <form action="/signup" method="POST">
-        <input type="text" name="userName" placeholder="User Name">
-        <input type="email" name="email" placeholder="Email">
-        <input type="password" name="password" placeholder="Password">
-        <input type="password" name="confirmPassword" placeholder="Confirm Password">
-        <input type="submit">
-    </form>
-</body>
-</html>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class = "mx-auto col-10 col-md-8 col-lg-6  ">
+                    <form action="/signup" method="POST" class ="entireFormA "  >
+                        <h1 class = "signUpPage"> Sign Up</h1>
+                        <p class = "signUpPageInstructions"> Sign up with your email address and chosen password.</p>
+                        <% if (locals.messages.errors) { %>
+                            <% messages.errors.forEach( el => { %>
+                                <div class="alert alert-danger"><%= el.msg %></div>
+                            <% }) %>    
+                        <% } %>
+            
+            
+            
+                        <div>
+                            <input class="formSignUp" type="text" name="userName" placeholder="User Name">
+                        </div>
+                        <div >
+                            <input class="formSignUp" type="email" name="email" placeholder="Email">
+                        </div>
+                        <div >
+                            <input class="formSignUp" type="password" name="password" placeholder="Password">
+                        </div>
+                        <div >
+                            <input class="formSignUp confirmPassword" type="password" name="confirmPassword" placeholder="Confirm Password">
+                        </div>
+                        <div >
+                            <input class ='signUpButton' type="submit">
+                        </div>
+                    </form>   
+                </div>
+            </div>
+        </div>
+    </main>
+</body> 
+
